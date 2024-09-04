@@ -22,7 +22,3 @@ This project utilizes neural networks to classify digits (0-9) from the MNIST da
 - **Input Layer:** 28x28 (flattened)
 - **Hidden Layers:** One dense layer with 100 neurons, ReLU activation
 - **Output Layer:** Dense layer with 10 outputs, Sigmoid activation
-
----
-
-This version improves readability and clarity by organizing the content with bullet points and separating details for each model.

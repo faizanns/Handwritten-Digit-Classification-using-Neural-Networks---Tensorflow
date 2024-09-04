@@ -1,17 +1,28 @@
 ### Handwritten Digit Classification using Neural Networks
+
 A simple artificial neural network model built with TensorFlow and Keras to classify handwritten digits from the MNIST dataset.
 
 #### Overview
-This project uses a neural network to classify digits (0-9) from the MNIST dataset, consisting of 60,000 training images and 10,000 test images.
-At the moment, the project contains multiple implementation of the solution. One with no hidden layer that gives about 92% accuracy,and one with 1 hidden layer that gives about 97% accuracy.
+
+This project utilizes neural networks to classify digits (0-9) from the MNIST dataset, which includes 60,000 training images and 10,000 test images. Currently, the project includes multiple implementations:
+
+- **Model 1:** No hidden layer, achieving ~92% accuracy.
+- **Model 2:** One hidden layer, achieving ~97% accuracy.
 
 #### Model Architecture
-1st model:
-Input Layer: 28x28 (flattened)
-Hidden Layers: None
-Output Layer: One dense layer with 10 outputs, Sigmoid activation activation
 
-2nd model:
-Input Layer: 28x28 (flattened)
-Hidden Layers: One dense layer with 100 neurons, ReLU activation
-Output Layer: One dense layer with 10 outputs, Sigmoid activation activation
+**1st Model:**
+
+- **Input Layer:** 28x28 (flattened)
+- **Hidden Layers:** None
+- **Output Layer:** Dense layer with 10 outputs, Sigmoid activation
+
+**2nd Model:**
+
+- **Input Layer:** 28x28 (flattened)
+- **Hidden Layers:** One dense layer with 100 neurons, ReLU activation
+- **Output Layer:** Dense layer with 10 outputs, Sigmoid activation
+
+---
+
+This version improves readability and clarity by organizing the content with bullet points and separating details for each model.
